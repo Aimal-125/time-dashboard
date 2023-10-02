@@ -5,6 +5,9 @@
 * {
 	box-sizing: border-box;
 }
+html {
+	scroll-behavior: smooth;
+}
 .container {
 	min-height: 100vh;
 	display: flex;
@@ -237,40 +240,48 @@
 
 @keyframes left {
 	0% { 
-		transform: translateX(-3px);
-		-webkit-transform: translateX(-3px);
+		opacity: 0.5;
+		transform: translateX(-2px);
+		-webkit-transform: translateX(-2px);
 	}
 	50% { 
+		opacity: 1;
 		transform: translateX(0);
 		-webkit-transform: translateX(0);
 	}
 }
 @keyframes right {
 	0% { 
-		transform: translateX(3px);
-		-webkit-transform: translateX(3px);
+		opacity: 0.5;
+		transform: translateX(2px);
+		-webkit-transform: translateX(2px);
 	}
 	50% { 
+		opacity: 1;
 		transform: translateX(0);
 		-webkit-transform: translateX(0);
 	}
 }
 @keyframes up {
 	0% { 
-		transform: translateY(3px);
-		-webkit-transform: translateY(3px);
+		opacity: 0.5;
+		transform: translateY(2px);
+		-webkit-transform: translateY(2px);
 	}
 	50% { 
+		opacity: 1;
 		transform: translateY(0);
 		-webkit-transform: translateY(0);
 	}
 }
 @keyframes down {
 	0% { 
-		transform: translateY(-3px);
-		-webkit-transform: translateY(-3px);
+		opacity: 0.5;
+		transform: translateY(-2px);
+		-webkit-transform: translateY(-2px);
 	}
 	50% { 
+		opacity: 1;
 		transform: translateY(0);
 		-webkit-transform: translateY(0);
 	}
