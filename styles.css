@@ -237,8 +237,8 @@
 
 @keyframes left {
 	0% { 
-		transform: translateX(-5px);
-		-webkit-transform: translateX(-5px);
+		transform: translateX(-3px);
+		-webkit-transform: translateX(-3px);
 	}
 	50% { 
 		transform: translateX(0);
@@ -247,8 +247,8 @@
 }
 @keyframes right {
 	0% { 
-		transform: translateX(5px);
-		-webkit-transform: translateX(5px);
+		transform: translateX(3px);
+		-webkit-transform: translateX(3px);
 	}
 	50% { 
 		transform: translateX(0);
@@ -257,8 +257,8 @@
 }
 @keyframes up {
 	0% { 
-		transform: translateY(5px);
-		-webkit-transform: translateY(5px);
+		transform: translateY(3px);
+		-webkit-transform: translateY(3px);
 	}
 	50% { 
 		transform: translateY(0);
@@ -267,8 +267,8 @@
 }
 @keyframes down {
 	0% { 
-		transform: translateY(-5px);
-		-webkit-transform: translateY(-5px);
+		transform: translateY(-3px);
+		-webkit-transform: translateY(-3px);
 	}
 	50% { 
 		transform: translateY(0);
