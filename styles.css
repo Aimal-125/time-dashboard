@@ -264,8 +264,8 @@ html {
 }
 @keyframes up {
 	0% {
-		transform: translateY(4px);
-		-webkit-transform: translateY(4px);
+		transform: translateY(15px);
+		-webkit-transform: translateY(15px);
 	}
 	50% {
 		transform: translateY(0);
@@ -274,8 +274,8 @@ html {
 }
 @keyframes down {
 	0% {
-		transform: translateY(-4px);
-		-webkit-transform: translateY(-4px);
+		transform: translateY(-15px);
+		-webkit-transform: translateY(-15px);
 	}
 	50% {
 		transform: translateY(0);
